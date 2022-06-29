@@ -18,11 +18,11 @@ def calculate(list):
 
     sum = [(matrix.sum(axis=0).tolist()), (matrix.sum(axis=1).tolist()), (matrix.flatten().sum())]
 
-    calculation = {"mean" : mean,
+    calculations = {"mean" : mean,
                    "variance" : var, 
                    "standar deviation" : std,
                    "max" : max,
                    "min" : min, 
                    "sum" : sum}
 
-    return calculation
+    return calculations
